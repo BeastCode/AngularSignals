@@ -1,0 +1,9 @@
+import { rx, of, map } from "rxjs";
+
+console.log("test");
+rx(
+  of("World"),
+  map((name) => `Hello, ${name}!`)
+).subscribe(console.log);
+
+// Open the console in the bottom right to see results.

@@ -1,0 +1,14 @@
+{
+  "name": "typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "com": "typescript: ^5.5.3",
+    "dev": "ts-run main.ts --watch",
+    "dev2": "tsc main.ts; node  --watch -- main.js"
+  },
+  "devDependencies": {
+    "typescript-run": "^0.1.0"
+  }
+}
